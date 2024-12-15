@@ -1,0 +1,87 @@
+[
+  {
+    "model": "habits.habit",
+    "pk": 1,
+    "fields": {
+      "owner": 2,
+      "action": "Выпивать стакан молока",
+      "time": "08:00:00",
+      "place": "Дома",
+      "periodicity": 1,
+      "time_to_complete": 120,
+      "is_good": true,
+      "is_public": true,
+      "related_habit": null,
+      "award": null,
+      "created_date": "2024-12-15"
+    }
+  },
+  {
+    "model": "habits.habit",
+    "pk": 2,
+    "fields": {
+      "owner": 2,
+      "action": "Бегать по утрам",
+      "time": "09:00:00",
+      "place": "Парке",
+      "periodicity": 1,
+      "time_to_complete": 120,
+      "is_good": false,
+      "is_public": true,
+      "related_habit": 1,
+      "award": null,
+      "created_date": "2024-12-15"
+    }
+  },
+  {
+    "model": "habits.habit",
+    "pk": 3,
+    "fields": {
+      "owner": 3,
+      "action": "Не есть за 2 часа до сна",
+      "time": "18:00:00",
+      "place": "Дома",
+      "periodicity": 1,
+      "time_to_complete": 120,
+      "is_good": false,
+      "is_public": true,
+      "related_habit": 4,
+      "award": null,
+      "created_date": "2024-12-15"
+    }
+  },
+  {
+    "model": "habits.habit",
+    "pk": 4,
+    "fields": {
+      "owner": 3,
+      "action": "Съедать одно яблоко по вечерам",
+      "time": "19:00:00",
+      "place": "Дома",
+      "periodicity": 1,
+      "time_to_complete": 120,
+      "is_good": true,
+      "is_public": true,
+      "related_habit": null,
+      "award": null,
+      "created_date": "2024-12-15"
+    }
+  },
+  {
+    "model": "habits.habit",
+    "pk": 5,
+    "fields": {
+      "owner": 4,
+      "action": "Соблюдать здоровый сон",
+      "time": "20:30:00",
+      "place": "Дома",
+      "periodicity": 1,
+      "time_to_complete": 120,
+      "is_good": false,
+      "is_public": false,
+      "related_habit": null,
+      "award": "Завтра буду бодрым весь день и куплю киндер сюрприз",
+      "created_date": "2024-12-15"
+    }
+  }
+]
