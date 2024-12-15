@@ -41,6 +41,6 @@ class RelatedHabitValidate:
     """ Проверка связанной привычки. """
 
     def __call__(self, value):
-        tmp_val = dict(value).get('related_habit')
+        tmp_val = value.get('related_habit')
         if tmp_val and not tmp_val.is_good:
             raise ValidationError("Связанная привычка должна быть приятной.")
