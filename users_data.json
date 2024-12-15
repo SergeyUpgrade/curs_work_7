@@ -1,0 +1,94 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$NYesPH0FBiSY5bvLzPPQV3$/3R8hiNZXLdkoyZx1qsmTDT6EaeUVduP0Gwqk8gkJE0=",
+      "last_login": "2024-11-28T21:11:20.705Z",
+      "is_superuser": true,
+      "last_name": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-11-28T21:11:01.647Z",
+      "email": "admin@admin.ru",
+      "first_name": "Admin",
+      "tg_username": null,
+      "tg_id": null,
+      "phone": null,
+      "city": null,
+      "avatar": "",
+      "is_subscribe": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$n2boBjtjjGrBZkjIHzzIY8$nuUPxn2IExpUbH05uuh1y7MprCSYxQUYIlVjPO2/06A=",
+      "last_login": null,
+      "is_superuser": false,
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-11-28T21:34:52Z",
+      "email": "coursework_001@test.ru",
+      "first_name": "Sergey",
+      "tg_username": null,
+      "tg_id": null,
+      "phone": null,
+      "city": null,
+      "avatar": "",
+      "is_subscribe": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$ZL9xO1KFA6qiHK2O4jUeLr$c42ZXh3MlVRBh0j9bNaNDUs4zGJxHP2ADvqmrOqUXYo=",
+      "last_login": null,
+      "is_superuser": false,
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-11-28T21:39:55Z",
+      "email": "coursework_002@test.ru",
+      "first_name": "Sergey1",
+      "tg_username": null,
+      "tg_id": null,
+      "phone": null,
+      "city": null,
+      "avatar": "",
+      "is_subscribe": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$C2LAkjHkEQbcAofvJYFuRS$iHEKXqulCV5txgQFQzU/XoSEs+5gFNOsm858Mbsg2Cc=",
+      "last_login": null,
+      "is_superuser": false,
+      "last_name": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-11-29T10:37:04.188Z",
+      "email": "coursework_003@test.ru",
+      "first_name": null,
+      "tg_username": null,
+      "tg_id": null,
+      "phone": null,
+      "city": null,
+      "avatar": "",
+      "is_subscribe": false,
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
