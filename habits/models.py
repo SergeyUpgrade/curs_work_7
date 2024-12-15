@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils import timezone
 
+
 from config.settings import AUTH_USER_MODEL
 
 NULLABLE = {"blank": True, "null": True}
